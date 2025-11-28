@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Firebase App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">FireApp</div>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="https://firebase.google.com/docs" target="_blank">Docs</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="fade-in">
+                <h1>Build Something Amazing</h1>
+                <p>Welcome to your new Firebase-powered website. This is the starting point for your next big project.</p>
+                <a href="#features" class="btn">Get Started</a>
+            </div>
+        </section>
+
+        <section id="features" class="container">
+            <h2 style="text-align: center; margin-bottom: 3rem;">Why Firebase?</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Fast Hosting</h3>
+                    <p>Deploy your web app in seconds with secure, global content delivery networks.</p>
+                </div>
+                <div class="card">
+                    <h3>Realtime Database</h3>
+                    <p>Store and sync data between users and devices in realtime using a cloud-hosted NoSQL database.</p>
+                </div>
+                <div class="card">
+                    <h3>Authentication</h3>
+                    <p>Manage your users simply and securely with multiple login providers.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Firebase App. Built with &hearts; and Code.</p>
+    </footer>
+
+    <!-- Firebase SDKs -->
+    <script defer src="/__/firebase/12.6.0/firebase-app-compat.js"></script>
+    <script defer src="/__/firebase/12.6.0/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/12.6.0/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/12.6.0/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/12.6.0/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/12.6.0/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/12.6.0/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/12.6.0/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/12.6.0/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/12.6.0/firebase-performance-compat.js"></script>
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+</body>
+</html>
