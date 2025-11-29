@@ -1,0 +1,21 @@
+
+> build
+> vite build
+
+5:29:31 PM [vite-plugin-svelte] no Svelte config found at /home/seren/Repos/Mistery-LLMs - using default configuration.
+vite v7.2.4 building client environment for production...
+transforming...
+✓ 21 modules transformed.
+✗ Build failed in 352ms
+error during build:
+[commonjs--resolver] Missing "./vertexai" specifier in "firebase" package
+    at e (file:///home/seren/Repos/Mistery-LLMs/node_modules/vite/dist/node/chunks/config.js:6886:8)
+    at n (file:///home/seren/Repos/Mistery-LLMs/node_modules/vite/dist/node/chunks/config.js:6898:14)
+    at o (file:///home/seren/Repos/Mistery-LLMs/node_modules/vite/dist/node/chunks/config.js:6926:10)
+    at resolveExportsOrImports (file:///home/seren/Repos/Mistery-LLMs/node_modules/vite/dist/node/chunks/config.js:33475:45)
+    at resolveDeepImport (file:///home/seren/Repos/Mistery-LLMs/node_modules/vite/dist/node/chunks/config.js:33489:22)
+    at tryNodeResolve (file:///home/seren/Repos/Mistery-LLMs/node_modules/vite/dist/node/chunks/config.js:33364:70)
+    at Object.handler (file:///home/seren/Repos/Mistery-LLMs/node_modules/vite/dist/node/chunks/config.js:33203:16)
+    at Object.handler (file:///home/seren/Repos/Mistery-LLMs/node_modules/vite/dist/node/chunks/config.js:34354:13)
+    at file:///home/seren/Repos/Mistery-LLMs/node_modules/rollup/dist/es/shared/node-entry.js:22451:40
+    at async PluginDriver.hookFirstAndGetPlugin (file:///home/seren/Repos/Mistery-LLMs/node_modules/rollup/dist/es/shared/node-entry.js:22333:28)

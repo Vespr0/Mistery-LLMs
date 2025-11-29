@@ -1,0 +1,30 @@
+
+> build
+> vite build
+
+5:31:59 PM [vite-plugin-svelte] no Svelte config found at /home/seren/Repos/Mistery-LLMs - using default configuration.
+vite v7.2.4 building client environment for production...
+transforming...
+✓ 401 modules transformed.
+✗ Build failed in 3.35s
+error during build:
+src/firebase.js (3:9): "getVertexAI" is not exported by "node_modules/firebase/ai/dist/esm/index.esm.js", imported by "src/firebase.js".
+file: /home/seren/Repos/Mistery-LLMs/src/firebase.js:3:9
+
+1: import { initializeApp } from "firebase/app";
+2: import { getAnalytics } from "firebase/analytics";
+3: import { getVertexAI, getGenerativeModel } from "firebase/ai";
+            ^
+4: 
+5: // Your web app's Firebase configuration
+
+    at getRollupError (file:///home/seren/Repos/Mistery-LLMs/node_modules/rollup/dist/es/shared/parseAst.js:401:41)
+    at error (file:///home/seren/Repos/Mistery-LLMs/node_modules/rollup/dist/es/shared/parseAst.js:397:42)
+    at Module.error (file:///home/seren/Repos/Mistery-LLMs/node_modules/rollup/dist/es/shared/node-entry.js:16956:16)
+    at Module.traceVariable (file:///home/seren/Repos/Mistery-LLMs/node_modules/rollup/dist/es/shared/node-entry.js:17412:29)
+    at ModuleScope.findVariable (file:///home/seren/Repos/Mistery-LLMs/node_modules/rollup/dist/es/shared/node-entry.js:15076:39)
+    at Identifier.bind (file:///home/seren/Repos/Mistery-LLMs/node_modules/rollup/dist/es/shared/node-entry.js:5423:40)
+    at CallExpression.bind (file:///home/seren/Repos/Mistery-LLMs/node_modules/rollup/dist/es/shared/node-entry.js:2813:23)
+    at CallExpression.bind (file:///home/seren/Repos/Mistery-LLMs/node_modules/rollup/dist/es/shared/node-entry.js:12123:15)
+    at VariableDeclarator.bind (file:///home/seren/Repos/Mistery-LLMs/node_modules/rollup/dist/es/shared/node-entry.js:2813:23)
+    at VariableDeclaration.bind (file:///home/seren/Repos/Mistery-LLMs/node_modules/rollup/dist/es/shared/node-entry.js:2809:28)
